@@ -1,5 +1,7 @@
 # android_device_xdf_n1
 
+**English** | [简体中文](README.zh-CN.md)
+
 TeamWin Recovery Project (TWRP) device tree for **华瑞安 KNC G128 / XDF-N1** tablet
 (MediaTek MT8788, platform `mt6771`, board `tb8788p1_64_bsp`).
 
