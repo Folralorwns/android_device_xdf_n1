@@ -180,6 +180,10 @@ patches/
 
 ## License
 
-Device tree sources are licensed under the Apache License 2.0, matching
-TWRP/AOSP. Files under `prebuilt/` (kernel and DTB) remain the property of the
-original vendor and are included solely for recovery purposes on this device.
+All original files in this repository (build configuration, shell scripts and
+recovery hooks) are licensed under the **GNU General Public License v3.0**.
+See [LICENSE](LICENSE) for the full text.
+
+Files under `prebuilt/` (the kernel image and DTB) are **NOT** covered by the
+GPL. They remain the property of the original vendor and are redistributed
+solely so that the recovery image is functional on the target device.
