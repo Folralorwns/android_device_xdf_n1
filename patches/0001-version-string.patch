@@ -1,0 +1,13 @@
+diff --git a/variables.h b/variables.h
+index 4769dc71..ded6ae9d 100755
+--- a/variables.h
++++ b/variables.h
+@@ -18,7 +18,7 @@
+ #define _VARIABLES_HEADER_
+ 
+ #define TW_MAIN_VERSION_STR       "3.7.0_11"
+-#define TW_VERSION_STR TW_MAIN_VERSION_STR TW_DEVICE_VERSION
++#define TW_VERSION_STR "V1.0.0-XDF_N1-Built_by_Folralorwns"
+ #define TW_SETTINGS_FILE            ".twrps"
+ #define TW_RECOVERY_NAME            "TWRP"
+ #define TW_DEFAULT_RECOVERY_FOLDER  "/" TW_RECOVERY_NAME

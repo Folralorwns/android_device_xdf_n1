@@ -1,0 +1,12 @@
+
+on init
+    setprop sys.usb.configfs 1
+
+service xdf_usb /system/bin/sh /sbin/xdf_usb.sh
+    class core
+    user root
+    group root
+    oneshot
+
+on property:sys.usb.config=adb
+    start adbd
