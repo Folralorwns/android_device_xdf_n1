@@ -30,7 +30,7 @@
    - 运行期每 20 秒清一次
    - `poweroff.sh` / `rebootsystem.sh` 退出钩子各清一次
 
-2. **硬件按键组合进入 recovery 被裁剪。** 只能用：
+2. **硬件按键组合进入 recovery 被阉割。** 只能使用：
    ```bash
    adb reboot recovery
    ```
@@ -43,7 +43,7 @@
    `sys.usb.controller`、`sys.usb.ffs.ready`、`sys.usb.config=adb`。
 
 5. **必须禁用 MTP**（`TW_EXCLUDE_MTP := true`）。否则 TWRP 进入主界面时会把
-   gadget 切换到 `mtp,adb`，而 gadget 只注册了 adb，USB 会直接挂掉。
+   gadget 切换到 `mtp,adb`，而 gadget 只注册了 adb，USB 会直接死掉。
 
 ## 编译
 
